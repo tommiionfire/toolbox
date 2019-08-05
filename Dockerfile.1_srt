@@ -1,0 +1,5 @@
+FROM eyevinntechnology/ffmpeg-base:0.1.3
+MAINTAINER tommiionfire <tommiionfire@gmail.com>
+COPY python/1_srt.py /root/1_srt.py
+ENTRYPOINT ["/root/1_srt.py"]
+CMD []
